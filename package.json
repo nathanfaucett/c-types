@@ -4,5 +4,6 @@
   "repo": "nathanfaucett/c-types",
   "description": "better types for c",
   "keywords": ["types"],
-  "license": "MIT"
+  "license": "MIT",
+  "src": ["*"]
 }
