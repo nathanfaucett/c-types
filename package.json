@@ -5,5 +5,7 @@
   "description": "better types for c",
   "keywords": ["types"],
   "license": "MIT",
-  "src": ["./lib.h"]
+  "src": [
+      "lib.h"
+  ]
 }
