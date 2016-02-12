@@ -1,5 +1,5 @@
-#ifndef __TYPES_H__
-#define __TYPES_H__
+#ifndef __TYPES_C__
+#define __TYPES_C__
 
 
 typedef unsigned char byte;
