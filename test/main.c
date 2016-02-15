@@ -1,6 +1,6 @@
+#include "../lib.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "../lib.h"
 
 
 int main(void) {
@@ -21,6 +21,6 @@ int main(void) {
 
     printf("%i\n", (int) sizeof(float32));
     printf("%i\n", (int) sizeof(float64));
-    
+
     return 0;
 }
