@@ -3,6 +3,7 @@ types
 
 better types for c
 
+```bash
 byte - 8 bit;
 bool - 8 bit;
 
@@ -21,6 +22,7 @@ uint64 - 64 bit;
 float32 - 32 bit;
 float64 - 64 bit;
 
-
-true - 1;
-false - 0;
+// defines
+true - ((bool) 1);
+false - ((bool) 0);
+```

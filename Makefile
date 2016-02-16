@@ -2,16 +2,19 @@ CC := clang
 
 OPT_LVL := -O2
 
-C_FLAGS := -ansi $(OPT_LVL) -Wall
+DEPS = ./deps
+
+C_FLAGS := -ansi $(OPT_LVL) -I$(DEPS) -Wall
 
 
 all: build_test run_test
 
-build_test:
-	$(CC) $(C_FLAGS) ./test/main.c -o ./test/main
-
 run_test:
 	./test/main
 
+build_test:
+	$(CC) $(C_FLAGS) ./test/main.c -o ./test/main
+
 clean:
-	$(RM) ./test/main *.o *~
+	$(RM) ./test/main **/*.o **/*~
+	$(RM) -rf deps
