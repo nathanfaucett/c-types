@@ -21,6 +21,7 @@ typedef double float64;
 
 
 #ifndef __bool_true_false_are_defined
+#define __bool_true_false_are_defined
 typedef byte bool;
 #define true ((bool) 1)
 #define false ((bool) 0)
