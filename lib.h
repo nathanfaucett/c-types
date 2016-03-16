@@ -20,7 +20,7 @@ typedef float float32;
 typedef double float64;
 
 
-#ifndef __bool_true_false_are_defined
+#if !defined(__bool_true_false_are_defined) || !defined(__cplusplus)
 #define __bool_true_false_are_defined
 typedef byte bool;
 #define true ((bool) 1)
