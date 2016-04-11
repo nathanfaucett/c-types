@@ -1,6 +1,6 @@
-#include "../lib.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "../src/lib.h"
 
 
 int main(void) {
